@@ -1,6 +1,6 @@
 # A Geometric Exploration of Myers-Perry AdS5 Cosmology
 ### Holographic Brane-World Model: A Toy Theory
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20800476.svg)](https://doi.org/10.5281/zenodo.20800476)
 **Status:** Exploratory phenomenological programme — not a peer-reviewed publication.  
 **Author:** Anonymous (biomedical engineer with a personal interest in theoretical physics)  
 **Period:** May–June 2026  
