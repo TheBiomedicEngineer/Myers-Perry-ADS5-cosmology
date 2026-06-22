@@ -1,0 +1,42 @@
+=== PULITO: massa->frequenza === Mon 8 Jun 2026 21:48:43
+
+FATTO 1 a^\200\224 la frequenza sopravvive alla perdita della massa.
+  Dispersione relativistica (c=1): omega^2 = k^2 + m^2
+  relazione: -k^2 - m^2 + omega^2 == 0
+  a m=0:    -k^2 + omega^2 == 0
+  -> omega^2 = k^2 : omega resta FINITO e LIBERO (lo fissa k, il momento).
+  -> la massa m e' SOLO un addendo; toglierla NON annulla omega.
+  VERIFICA: d(omega)/d(m) a m=0 = 0
+     = 0  -> a m piccola, omega NON dipende da m al primo ordine. [pulito]
+
+  Caso k=0 (particella ferma): omega = m  -> e' la frequenza di Compton.
+  Strappare la massa = passare da (k=0, omega=m) a (k!=0, m=0, omega=k):
+  la frequenza NON sparisce, si TRASFERISCE da 'omega di massa' a 'omega di moto'.
+  Conservazione: omega resta, cambia solo cosa la sostiene (m -> k). [pulito]
+
+FATTO 2 a^\200\224 la massa 4D dal modo sulla 5a dim: estesa vs compatta.
+  m_eff^2 = (momento sulla 5a dim)^2 / g_yy
+
+  (a) ESTESA  g_yy = r^2 (si apre al bordo):
+      m_eff^2 = n^2/r^2
+      r->inf: 0   -> DILUISCE a 0. NO.
+
+  (b) COMPATTA g_yy = R^2 (cerchio, raggio finito):
+      m_eff^2 = n^2/R^2  (indipendente da r)
+      r->inf:  2
+n
+---
+  2
+Rc   -> RESTA n^2/R^2. SI.
+      spettro: m_n = n/R, n=0,1,2,... TORRE DISCRETA di masse/stati. [pulito]
+
+=== CONCLUSIONE (pulita, senza dubbi) ===
+1. La frequenza e' indipendente dalla massa: omega^2=k^2+m^2, a m=0 omega=k!=0.
+   Strappare la massa trasferisce omega da 'di massa' a 'di moto'. Non sparisce.
+2. La massa 4D dal modo sulla 5a dim e' FINITA solo se la 5a dim e' COMPATTA
+   (m=n/R). Se estesa, diluisce a 0. La compatta da' insieme: masse finite +
+   spettro discreto (= spazio di stati). Le due cose coincidono.
+
+Entrambi i fatti sono identita' algebriche dirette, verificabili a vista.
+Nessun Solve opaco, nessuna separazione di MP-AdS5 (li' c'era il bug).
+=== fine === Mon 8 Jun 2026 21:48:43

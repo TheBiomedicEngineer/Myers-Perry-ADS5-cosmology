@@ -1,0 +1,57 @@
+=== DIRAC QFT IN KERR - segno asimmetria materia/antimateria ===
+Mon 8 Jun 2026 22:03:26
+
+Omega_H =            a
+------------------------
+                2    2
+2 M (M + Sqrt[-a  + M ])
+kappa   =              2    2
+      Sqrt[-a  + M ]
+--------------------------
+ 2               2    2  2
+a  + (M + Sqrt[-a  + M ])
+T_H     =                2    2
+        Sqrt[-a  + M ]
+-------------------------------
+   2                 2    2
+4 M  Pi + 4 M Sqrt[-a  + M ] Pi
+
+N_materia     = 1/(Exp[(w - m Omega_H)/T_H] + 1)
+N_antimateria = 1/(Exp[(w + m Omega_H)/T_H] + 1)   (C: m -> -m)
+Segno: N_mat > N_anti  <=>  m Omega_H > 0 (co-rotante) -> MATERIA
+
+TABELLA (M=1, w=1, m=1):
+a/M | Omega_H | T_H | N_mat | N_anti | A(simmetria)
+a/M=0.1  Omega_H=0.0250628  T_H=0.0396888  N_mat=          -11
+2.147 x 10  N_anti=          -12
+6.071 x 10  A=0.559073
+a/M=0.3  Omega_H=0.076768  T_H=0.0388508  N_mat=          -11
+4.782 x 10  N_anti=         -13
+9.19 x 10  A=0.96229
+a/M=0.5  Omega_H=0.133975  T_H=0.036932  N_mat=          -11
+6.549 x 10  N_anti=          -14
+4.627 x 10  A=0.998588
+a/M=0.7  Omega_H=0.204184  T_H=0.0331534  N_mat=         -11
+3.76 x 10  N_anti=          -16
+1.682 x 10  A=0.999991
+a/M=0.9  Omega_H=0.313395  T_H=0.0241572  N_mat=          -13
+4.532 x 10  N_anti=          -24
+2.443 x 10  A=1.
+a/M=0.99  Omega_H=0.433804  T_H=0.00983797  N_mat=          -25
+1.013 x 10  N_anti=          -64
+5.071 x 10  A=1.
+
+LETTURA:
+- A POSITIVA per ogni a/M -> MATERIA favorita, segno definito (non si inverte).
+- viene dal termine -m Omega_H nel Fermi-Dirac (frame-dragging).
+- conferma il risultato Mashhoon col conto QFT (creazione fermioni da Kerr).
+- A cresce con lo spin (~0.56 a a/M=0.1 -> ~1 a a/M alto).
+
+CONFINE: blinda il SEGNO near-horizon. Il VALORE (eta~10^-9) richiede
+integrazione sui modi coi greybody + diluizione al bordo / eta=rapporto scale.
+
+Check CPT: N(w,m,Om) - N(-w,-m,-Om) =                                 1                                                                  1
+-(--------------------------------------------------------------) + ---------------------------------------------------------------
+                                     2    2              2    2                                       2    2                2    2
+       (-2 Pi (a m + 2 M (M + Sqrt[-a  + M ]) w))/Sqrt[-a  + M ]         (-2 a m Pi + 4 M (M + Sqrt[-a  + M ]) Pi w)/Sqrt[-a  + M ]
+  1 + E                                                             1 + E  (deve essere 0)

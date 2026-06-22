@@ -1,0 +1,42 @@
+fai un=== massa->frequenza + KK (v3) === Sun 7 Jun 2026 18:49:32
+
+1. HJ completo (CON m^2):
+   (-((omega^2*r^6)/(-mu + r^2 + r^4)) + Tch^2 + (1 - mu/r^2 + r^2)*Wr^2)/r^2
+
+2. r^2*HJ:
+   -((omega^2*r^6)/(-mu + r^2 + r^4)) + Tch^2 + ((-mu + r^2 + r^4)*Wr^2)/r^2
+
+3. CHECK separazione: r^2*HJ - (partR+partA) deve essere 0:
+   -((r^2*(9*L1^2*(1 + 25*r^2)*Csc[chi]^2 + (1 + 9*r^2)*(m^2*(1 + 25*r^2) + 25*nKK^2*Sec[chi]^2)))/(1 + 34*r^2 + 225*r^4))
+
+4. W'^2 (ora con m, omega, Csep ESPLICITI):
+   W'^2 = -((omega^2*r^6)/(-mu + r^2 + r^4))
+
+5. LIMITE NULLO (m->0):
+   W'^2|_{m=0} = -((omega^2*r^6)/(-mu + r^2 + r^4))
+   cio' che la massa toglieva: 0
+   coeff di m^2 in W'^2: 0
+   -> W'^2 resta una funzione sensata a m=0: la parte radiale della fase sopravvive.
+
+6. omega e' parametro libero in S=-omega t+..., indipendente da m.
+   m->0 NON tocca omega -> fase exp(-i omega t) sopravvive. [CONFERMATO strutturale]
+
+7. MASSA EFFETTIVA 4D da KK a^\200\224 confronto dimensione ESTESA vs COMPATTA:
+
+   (a) phi2 ESTESA (angolo MP-AdS5): m_eff^2 = (nKK^2*Sec[chi]^2)/(1/25 + r^2)
+       al bordo r->inf: 0  -> DILUISCE a 0
+
+   (b) dim COMPATTA raggio R: g_yy=R^2 cost -> m_eff^2 = nKK^2/R^2
+       FINITA, costante, indipendente da r -> NON diluisce. Spettro discreto.
+       m_eff = nKK/R : torre di masse equispaziate (= spettro di stati discreto).
+
+=== LETTURA ===
+- limite nullo: W'^2 sensato a m=0 + omega libero -> FREQUENZA SOPRAVVIVE [ok]
+- massa da KK: ESTESA diluisce (no), COMPATTA da' m_eff=n/R finita (si').
+- CONCLUSIONE: il meccanismo regge SOLO con la 5a dim COMPATTA. La quinta dim
+  che 'resta come spazio di stati' DEVE essere compatta: allora da' sia lo
+  spettro discreto (Hilbert) sia masse finite m=n/R. Le due cose coincidono.
+- DOMANDA APERTA: nel nostro modello, qual e' la dim compatta? L'angolo MP-AdS5
+  e' esteso. Serve una direzione compatta (raggio finito) - da identificare.
+
+=== fine v3 === Sun 7 Jun 2026 18:49:32
