@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20800476.svg)](https://doi.org/10.5281/zenodo.20800476)
+
 # A Geometric Exploration of Myers-Perry AdS5 2 SPINs Cosmology
 **Holographic Brane-World Model: A Toy Theory**
 
