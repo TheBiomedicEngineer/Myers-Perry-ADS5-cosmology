@@ -35,7 +35,7 @@ included):
 
 so the flux term is
 
-> **T_vv = 3 (dm/dv) / r��**
+> **T_vv = 3 (dm/dv) / r³**
 
 **Consistency check (passed).** Integrating over the S³ area (2π²r³):
 
